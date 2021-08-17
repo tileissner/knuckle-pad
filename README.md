@@ -8,7 +8,7 @@ The Knuckle Pad (WIP name subject to change) is a 4x6+5 ortholinear gaming keypa
 
 Q: Why the knuckle key?
 
-A: At some point in time I (unconsciously) developed the habit of using my knuckles to press CTRL when playing shooters as I pressing said key with my pinky fingers was really uncomfortable for me. 
+A: At some point in time I (unconsciously) developed the habit of using my knuckles to press CTRL when playing shooters as I pressing said key with my pinky fingers felt rather uncomfortable.
 
 
 [//]: # (Q: How am I gonna flame my team mates with half a keyboard?)
