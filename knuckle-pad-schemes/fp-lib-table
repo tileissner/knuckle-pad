@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Keebio-Parts)(type KiCad)(uri /home/tim/Documents/kicad/libs/Keebio-Parts.pretty-master)(options "")(descr ""))
+  (lib (name used_footprints)(type KiCad)(uri /home/tim/Documents/kicad/avalanche-master/used_footprints.pretty)(options "")(descr ""))
+  (lib (name Hybrid-Switches)(type KiCad)(uri /home/tim/Documents/kicad/libs/Hybrid-Switches.pretty-master)(options "")(descr ""))
+)
