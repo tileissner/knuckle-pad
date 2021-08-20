@@ -19,7 +19,7 @@ U 1 1 61253003
 P 8450 1550
 F 0 "U1" H 8450 2387 60  0000 C CNN
 F 1 "ProMicro" H 8450 2281 60  0000 C CNN
-F 2 "used_footprints:ProMicro_rev2" V 9500 -950 60  0001 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" V 9500 -950 60  0001 C CNN
 F 3 "" V 9500 -950 60  0001 C CNN
 	1    8450 1550
 	1    0    0    -1  
@@ -847,15 +847,15 @@ Connection ~ 5350 1300
 Wire Wire Line
 	6100 850  6100 1300
 Connection ~ 6100 1300
-Text GLabel 7750 1600 0    50   Input ~ 0
+Text GLabel 7750 1100 0    50   Input ~ 0
 row0
-Text GLabel 7750 1700 0    50   Input ~ 0
+Text GLabel 7750 1400 0    50   Input ~ 0
 row1
-Text GLabel 7750 1800 0    50   Input ~ 0
-row2
 Text GLabel 7750 1900 0    50   Input ~ 0
-row3
+row2
 Text GLabel 7750 2000 0    50   Input ~ 0
+row3
+Text GLabel 7750 2100 0    50   Input ~ 0
 row4
 Text GLabel 9150 1500 2    50   Input ~ 0
 col0
@@ -870,10 +870,10 @@ col4
 Text GLabel 9150 2000 2    50   Input ~ 0
 col5
 $Comp
-L Switch:SW_Push SW30
+L Switch:SW_Push RST
 U 1 1 611F01FE
 P 7850 2950
-F 0 "SW30" H 7850 3235 50  0000 C CNN
+F 0 "RST" H 7850 3235 50  0000 C CNN
 F 1 "SW_Push" H 7850 3144 50  0000 C CNN
 F 2 "used_footprints:Switch_Reset_THT" H 7850 3150 50  0001 C CNN
 F 3 "~" H 7850 3150 50  0001 C CNN
@@ -990,6 +990,61 @@ F 1 "MountingHole" H 8650 3855 50  0000 L CNN
 F 2 "used_footprints:M2_HOLE_PCB" H 8550 3900 50  0001 C CNN
 F 3 "~" H 8550 3900 50  0001 C CNN
 	1    8550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 613BF7F0
+P 8550 4150
+F 0 "H6" H 8650 4196 50  0000 L CNN
+F 1 "MountingHole" H 8650 4105 50  0000 L CNN
+F 2 "used_footprints:M2_HOLE_PCB" H 8550 4150 50  0001 C CNN
+F 3 "~" H 8550 4150 50  0001 C CNN
+	1    8550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 612011BF
+P 8850 2800
+F 0 "#FLG?" H 8850 2875 50  0001 C CNN
+F 1 "PWR_FLAG" H 8850 2973 50  0000 C CNN
+F 2 "" H 8850 2800 50  0001 C CNN
+F 3 "~" H 8850 2800 50  0001 C CNN
+	1    8850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 61201D2B
+P 9350 2800
+F 0 "#FLG?" H 9350 2875 50  0001 C CNN
+F 1 "PWR_FLAG" H 9350 2973 50  0000 C CNN
+F 2 "" H 9350 2800 50  0001 C CNN
+F 3 "~" H 9350 2800 50  0001 C CNN
+	1    9350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 61202ED4
+P 8850 2800
+F 0 "#PWR?" H 8850 2650 50  0001 C CNN
+F 1 "VCC" H 8865 2973 50  0000 C CNN
+F 2 "" H 8850 2800 50  0001 C CNN
+F 3 "" H 8850 2800 50  0001 C CNN
+	1    8850 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61203DED
+P 9350 2800
+F 0 "#PWR?" H 9350 2550 50  0001 C CNN
+F 1 "GND" H 9355 2627 50  0000 C CNN
+F 2 "" H 9350 2800 50  0001 C CNN
+F 3 "" H 9350 2800 50  0001 C CNN
+	1    9350 2800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
