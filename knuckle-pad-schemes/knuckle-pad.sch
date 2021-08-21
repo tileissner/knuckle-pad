@@ -847,9 +847,9 @@ Connection ~ 5350 1300
 Wire Wire Line
 	6100 850  6100 1300
 Connection ~ 6100 1300
-Text GLabel 7750 1100 0    50   Input ~ 0
+Text GLabel 7750 1500 0    50   Input ~ 0
 row0
-Text GLabel 7750 1400 0    50   Input ~ 0
+Text GLabel 7750 1800 0    50   Input ~ 0
 row1
 Text GLabel 7750 1900 0    50   Input ~ 0
 row2
@@ -1047,4 +1047,12 @@ F 3 "" H 9350 2800 50  0001 C CNN
 	1    9350 2800
 	1    0    0    -1  
 $EndComp
+NoConn ~ 9150 1400
+NoConn ~ 7750 1100
+NoConn ~ 7750 1000
+NoConn ~ 7750 1400
+NoConn ~ 7750 1600
+NoConn ~ 7750 1700
+NoConn ~ 9150 2100
+NoConn ~ 9150 1000
 $EndSCHEMATC
