@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L keebio:ProMicro U1
-U 1 1 61253003
-P 8450 1550
-F 0 "U1" H 8450 2387 60  0000 C CNN
-F 1 "ProMicro" H 8450 2281 60  0000 C CNN
-F 2 "Keebio-Parts:ArduinoProMicro" V 9500 -950 60  0001 C CNN
-F 3 "" V 9500 -950 60  0001 C CNN
-	1    8450 1550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW1
 U 1 1 61342BC0
 P 2050 1300
@@ -847,7 +836,7 @@ Connection ~ 5350 1300
 Wire Wire Line
 	6100 850  6100 1300
 Connection ~ 6100 1300
-Text GLabel 7750 1500 0    50   Input ~ 0
+Text GLabel 7750 1400 0    50   Input ~ 0
 row0
 Text GLabel 7750 1800 0    50   Input ~ 0
 row1
@@ -865,9 +854,9 @@ Text GLabel 9150 1700 2    50   Input ~ 0
 col2
 Text GLabel 9150 1800 2    50   Input ~ 0
 col3
-Text GLabel 9150 1900 2    50   Input ~ 0
+Text GLabel 7750 1600 0    50   Input ~ 0
 col4
-Text GLabel 9150 2000 2    50   Input ~ 0
+Text GLabel 7750 1500 0    50   Input ~ 0
 col5
 $Comp
 L Switch:SW_Push RST1
@@ -1050,9 +1039,19 @@ $EndComp
 NoConn ~ 9150 1400
 NoConn ~ 7750 1100
 NoConn ~ 7750 1000
-NoConn ~ 7750 1400
-NoConn ~ 7750 1600
-NoConn ~ 7750 1700
+NoConn ~ 7100 1500
+NoConn ~ 7100 1600
 NoConn ~ 9150 2100
 NoConn ~ 9150 1000
+$Comp
+L keebio:ProMicro U1
+U 1 1 61253003
+P 8450 1550
+F 0 "U1" H 8450 2387 60  0000 C CNN
+F 1 "ProMicro" H 8450 2281 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" V 9500 -950 60  0001 C CNN
+F 3 "" V 9500 -950 60  0001 C CNN
+	1    8450 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
