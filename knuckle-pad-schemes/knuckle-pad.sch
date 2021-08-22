@@ -1039,8 +1039,8 @@ $EndComp
 NoConn ~ 9150 1400
 NoConn ~ 7750 1100
 NoConn ~ 7750 1000
-NoConn ~ 7100 1500
-NoConn ~ 7100 1600
+NoConn ~ 7750 1700
+NoConn ~ 9150 2000
 NoConn ~ 9150 2100
 NoConn ~ 9150 1000
 $Comp
@@ -1054,4 +1054,5 @@ F 3 "" V 9500 -950 60  0001 C CNN
 	1    8450 1550
 	1    0    0    -1  
 $EndComp
+NoConn ~ 9150 1900
 $EndSCHEMATC
