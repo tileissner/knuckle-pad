@@ -836,64 +836,44 @@ Connection ~ 5350 1300
 Wire Wire Line
 	6100 850  6100 1300
 Connection ~ 6100 1300
-Text GLabel 7750 1400 0    50   Input ~ 0
-row0
-Text GLabel 7750 1800 0    50   Input ~ 0
-row1
-Text GLabel 7750 1900 0    50   Input ~ 0
-row2
-Text GLabel 7750 2000 0    50   Input ~ 0
-row3
-Text GLabel 7750 2100 0    50   Input ~ 0
-row4
-Text GLabel 9150 1500 2    50   Input ~ 0
-col0
-Text GLabel 9150 1600 2    50   Input ~ 0
-col1
-Text GLabel 9150 1700 2    50   Input ~ 0
-col2
-Text GLabel 9150 1800 2    50   Input ~ 0
-col3
-Text GLabel 7750 1600 0    50   Input ~ 0
-col4
-Text GLabel 7750 1500 0    50   Input ~ 0
-col5
 $Comp
-L Switch:SW_Push RST1
-U 1 1 611F01FE
-P 7850 2950
-F 0 "RST1" H 7850 3235 50  0000 C CNN
-F 1 "SW_Push" H 7850 3144 50  0000 C CNN
-F 2 "used_footprints:Switch_Reset_THT" H 7850 3150 50  0001 C CNN
-F 3 "~" H 7850 3150 50  0001 C CNN
-	1    7850 2950
+L keebio:ProMicro U1
+U 1 1 61253003
+P 8450 1550
+F 0 "U1" H 8450 2387 60  0000 C CNN
+F 1 "ProMicro" H 8450 2281 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" V 9500 -950 60  0001 C CNN
+F 3 "" V 9500 -950 60  0001 C CNN
+	1    8450 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 7650 2950 0    50   Input ~ 0
-RST
+NoConn ~ 9150 1900
+NoConn ~ 9150 1000
+NoConn ~ 9150 2100
+NoConn ~ 9150 2000
+NoConn ~ 7750 1700
+NoConn ~ 7750 1000
+NoConn ~ 7750 1100
+NoConn ~ 9150 1400
+Connection ~ 7650 1250
+Wire Wire Line
+	7650 1300 7650 1250
+Wire Wire Line
+	7750 1300 7650 1300
+Wire Wire Line
+	7650 1200 7650 1250
+Wire Wire Line
+	7750 1200 7650 1200
 $Comp
-L power:GND #PWR02
-U 1 1 611F30C2
-P 8050 2950
-F 0 "#PWR02" H 8050 2700 50  0001 C CNN
-F 1 "GND" V 8055 2822 50  0000 R CNN
-F 2 "" H 8050 2950 50  0001 C CNN
-F 3 "" H 8050 2950 50  0001 C CNN
-	1    8050 2950
-	0    -1   -1   0   
-$EndComp
-Text GLabel 9150 1200 2    50   Input ~ 0
-RST
-$Comp
-L power:GND #PWR03
-U 1 1 611F7A78
-P 9150 1100
-F 0 "#PWR03" H 9150 850 50  0001 C CNN
-F 1 "GND" V 9155 972 50  0000 R CNN
-F 2 "" H 9150 1100 50  0001 C CNN
-F 3 "" H 9150 1100 50  0001 C CNN
-	1    9150 1100
-	0    -1   -1   0   
+L power:GND #PWR01
+U 1 1 6120866A
+P 7650 1250
+F 0 "#PWR01" H 7650 1000 50  0001 C CNN
+F 1 "GND" V 7655 1122 50  0000 R CNN
+F 2 "" H 7650 1250 50  0001 C CNN
+F 3 "" H 7650 1250 50  0001 C CNN
+	1    7650 1250
+	0    1    1    0   
 $EndComp
 $Comp
 L power:VCC #PWR04
@@ -907,110 +887,48 @@ F 3 "" H 9150 1300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR01
-U 1 1 6120866A
-P 7650 1250
-F 0 "#PWR01" H 7650 1000 50  0001 C CNN
-F 1 "GND" V 7655 1122 50  0000 R CNN
-F 2 "" H 7650 1250 50  0001 C CNN
-F 3 "" H 7650 1250 50  0001 C CNN
-	1    7650 1250
-	0    1    1    0   
+L power:GND #PWR03
+U 1 1 611F7A78
+P 9150 1100
+F 0 "#PWR03" H 9150 850 50  0001 C CNN
+F 1 "GND" V 9155 972 50  0000 R CNN
+F 2 "" H 9150 1100 50  0001 C CNN
+F 3 "" H 9150 1100 50  0001 C CNN
+	1    9150 1100
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7750 1200 7650 1200
-Wire Wire Line
-	7650 1200 7650 1250
-Wire Wire Line
-	7750 1300 7650 1300
-Wire Wire Line
-	7650 1300 7650 1250
-Connection ~ 7650 1250
+Text GLabel 9150 1200 2    50   Input ~ 0
+RST
+Text GLabel 7750 1500 0    50   Input ~ 0
+col5
+Text GLabel 7750 1600 0    50   Input ~ 0
+col4
+Text GLabel 9150 1800 2    50   Input ~ 0
+col3
+Text GLabel 9150 1700 2    50   Input ~ 0
+col2
+Text GLabel 9150 1600 2    50   Input ~ 0
+col1
+Text GLabel 9150 1500 2    50   Input ~ 0
+col0
+Text GLabel 7750 2100 0    50   Input ~ 0
+row4
+Text GLabel 7750 2000 0    50   Input ~ 0
+row3
+Text GLabel 7750 1900 0    50   Input ~ 0
+row2
+Text GLabel 7750 1800 0    50   Input ~ 0
+row1
+Text GLabel 7750 1400 0    50   Input ~ 0
+row0
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 612164E7
-P 7600 3650
-F 0 "H1" H 7700 3696 50  0000 L CNN
-F 1 "MountingHole" H 7700 3605 50  0000 L CNN
-F 2 "used_footprints:M2_HOLE_PCB" H 7600 3650 50  0001 C CNN
-F 3 "~" H 7600 3650 50  0001 C CNN
-	1    7600 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 61217745
-P 7600 3900
-F 0 "H2" H 7700 3946 50  0000 L CNN
-F 1 "MountingHole" H 7700 3855 50  0000 L CNN
-F 2 "used_footprints:M2_HOLE_PCB" H 7600 3900 50  0001 C CNN
-F 3 "~" H 7600 3900 50  0001 C CNN
-	1    7600 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 61218119
-P 7600 4150
-F 0 "H3" H 7700 4196 50  0000 L CNN
-F 1 "MountingHole" H 7700 4105 50  0000 L CNN
-F 2 "used_footprints:M2_HOLE_PCB" H 7600 4150 50  0001 C CNN
-F 3 "~" H 7600 4150 50  0001 C CNN
-	1    7600 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 61218AFC
-P 8550 3650
-F 0 "H4" H 8650 3696 50  0000 L CNN
-F 1 "MountingHole" H 8650 3605 50  0000 L CNN
-F 2 "used_footprints:M2_HOLE_PCB" H 8550 3650 50  0001 C CNN
-F 3 "~" H 8550 3650 50  0001 C CNN
-	1    8550 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 612195BE
-P 8550 3900
-F 0 "H5" H 8650 3946 50  0000 L CNN
-F 1 "MountingHole" H 8650 3855 50  0000 L CNN
-F 2 "used_footprints:M2_HOLE_PCB" H 8550 3900 50  0001 C CNN
-F 3 "~" H 8550 3900 50  0001 C CNN
-	1    8550 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 613BF7F0
-P 8550 4150
-F 0 "H6" H 8650 4196 50  0000 L CNN
-F 1 "MountingHole" H 8650 4105 50  0000 L CNN
-F 2 "used_footprints:M2_HOLE_PCB" H 8550 4150 50  0001 C CNN
-F 3 "~" H 8550 4150 50  0001 C CNN
-	1    8550 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 612011BF
-P 8850 2800
-F 0 "#FLG0101" H 8850 2875 50  0001 C CNN
-F 1 "PWR_FLAG" H 8850 2973 50  0000 C CNN
-F 2 "" H 8850 2800 50  0001 C CNN
-F 3 "~" H 8850 2800 50  0001 C CNN
-	1    8850 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 61201D2B
+L power:GND #PWR0102
+U 1 1 61203DED
 P 9350 2800
-F 0 "#FLG0102" H 9350 2875 50  0001 C CNN
-F 1 "PWR_FLAG" H 9350 2973 50  0000 C CNN
+F 0 "#PWR0102" H 9350 2550 50  0001 C CNN
+F 1 "GND" H 9355 2627 50  0000 C CNN
 F 2 "" H 9350 2800 50  0001 C CNN
-F 3 "~" H 9350 2800 50  0001 C CNN
+F 3 "" H 9350 2800 50  0001 C CNN
 	1    9350 2800
 	1    0    0    -1  
 $EndComp
@@ -1026,33 +944,115 @@ F 3 "" H 8850 2800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0102
-U 1 1 61203DED
+L power:PWR_FLAG #FLG0102
+U 1 1 61201D2B
 P 9350 2800
-F 0 "#PWR0102" H 9350 2550 50  0001 C CNN
-F 1 "GND" H 9355 2627 50  0000 C CNN
+F 0 "#FLG0102" H 9350 2875 50  0001 C CNN
+F 1 "PWR_FLAG" H 9350 2973 50  0000 C CNN
 F 2 "" H 9350 2800 50  0001 C CNN
-F 3 "" H 9350 2800 50  0001 C CNN
+F 3 "~" H 9350 2800 50  0001 C CNN
 	1    9350 2800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9150 1400
-NoConn ~ 7750 1100
-NoConn ~ 7750 1000
-NoConn ~ 7750 1700
-NoConn ~ 9150 2000
-NoConn ~ 9150 2100
-NoConn ~ 9150 1000
 $Comp
-L keebio:ProMicro U1
-U 1 1 61253003
-P 8450 1550
-F 0 "U1" H 8450 2387 60  0000 C CNN
-F 1 "ProMicro" H 8450 2281 60  0000 C CNN
-F 2 "Keebio-Parts:ArduinoProMicro" V 9500 -950 60  0001 C CNN
-F 3 "" V 9500 -950 60  0001 C CNN
-	1    8450 1550
+L power:PWR_FLAG #FLG0101
+U 1 1 612011BF
+P 8850 2800
+F 0 "#FLG0101" H 8850 2875 50  0001 C CNN
+F 1 "PWR_FLAG" H 8850 2973 50  0000 C CNN
+F 2 "" H 8850 2800 50  0001 C CNN
+F 3 "~" H 8850 2800 50  0001 C CNN
+	1    8850 2800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9150 1900
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 613BF7F0
+P 8550 4150
+F 0 "H6" H 8650 4196 50  0000 L CNN
+F 1 "MountingHole" H 8650 4105 50  0000 L CNN
+F 2 "used_footprints:M2_HOLE_PCB" H 8550 4150 50  0001 C CNN
+F 3 "~" H 8550 4150 50  0001 C CNN
+	1    8550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 612195BE
+P 8550 3900
+F 0 "H5" H 8650 3946 50  0000 L CNN
+F 1 "MountingHole" H 8650 3855 50  0000 L CNN
+F 2 "used_footprints:M2_HOLE_PCB" H 8550 3900 50  0001 C CNN
+F 3 "~" H 8550 3900 50  0001 C CNN
+	1    8550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61218AFC
+P 8550 3650
+F 0 "H4" H 8650 3696 50  0000 L CNN
+F 1 "MountingHole" H 8650 3605 50  0000 L CNN
+F 2 "used_footprints:M2_HOLE_PCB" H 8550 3650 50  0001 C CNN
+F 3 "~" H 8550 3650 50  0001 C CNN
+	1    8550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61218119
+P 7600 4150
+F 0 "H3" H 7700 4196 50  0000 L CNN
+F 1 "MountingHole" H 7700 4105 50  0000 L CNN
+F 2 "used_footprints:M2_HOLE_PCB" H 7600 4150 50  0001 C CNN
+F 3 "~" H 7600 4150 50  0001 C CNN
+	1    7600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61217745
+P 7600 3900
+F 0 "H2" H 7700 3946 50  0000 L CNN
+F 1 "MountingHole" H 7700 3855 50  0000 L CNN
+F 2 "used_footprints:M2_HOLE_PCB" H 7600 3900 50  0001 C CNN
+F 3 "~" H 7600 3900 50  0001 C CNN
+	1    7600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 612164E7
+P 7600 3650
+F 0 "H1" H 7700 3696 50  0000 L CNN
+F 1 "MountingHole" H 7700 3605 50  0000 L CNN
+F 2 "used_footprints:M2_HOLE_PCB" H 7600 3650 50  0001 C CNN
+F 3 "~" H 7600 3650 50  0001 C CNN
+	1    7600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 611F30C2
+P 8050 2950
+F 0 "#PWR02" H 8050 2700 50  0001 C CNN
+F 1 "GND" V 8055 2822 50  0000 R CNN
+F 2 "" H 8050 2950 50  0001 C CNN
+F 3 "" H 8050 2950 50  0001 C CNN
+	1    8050 2950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7650 2950 0    50   Input ~ 0
+RST
+$Comp
+L Switch:SW_Push RST1
+U 1 1 611F01FE
+P 7850 2950
+F 0 "RST1" H 7850 3235 50  0000 C CNN
+F 1 "SW_Push" H 7850 3144 50  0000 C CNN
+F 2 "used_footprints:Switch_Reset_THT" H 7850 3150 50  0001 C CNN
+F 3 "~" H 7850 3150 50  0001 C CNN
+	1    7850 2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
