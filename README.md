@@ -22,4 +22,10 @@ A: At some point in time I (unconsciously) developed the habit of using my knuck
 # Parts needed
 
 # Future plans
-Definitely still planning on designing a switch plate and might even decide to design a stacked acrylic case if I'm feeling spicy.
+
+- <del>switch plate</del>
+- <del>Bottom plate</del>
+- Change to black pill microcontroller (might not be needed as pro micros with usb-c start to pop up)
+- Hot-Swap
+- Might design a stacked acrylic case if I'm feeling spicy (not anytime soon though)
+
