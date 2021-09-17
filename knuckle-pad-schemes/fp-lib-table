@@ -3,4 +3,6 @@
   (lib (name used_footprints)(type KiCad)(uri /home/tim/Documents/kicad/avalanche-master/used_footprints.pretty)(options "")(descr ""))
   (lib (name Keebio-Parts)(type KiCad)(uri /home/tim/Documents/kicad/libs/Keebio-Parts.pretty-master)(options "")(descr ""))
   (lib (name Footprints)(type KiCad)(uri /home/tim/Documents/kicad/libs/Kicad-STM32-master/Footprints)(options "")(descr ""))
+  (lib (name acheron_Components)(type KiCad)(uri /home/tim/Documents/kicad/libs/AlexandriaLibrary-master/footprints/acheron_Components.pretty)(options "")(descr ""))
+  (lib (name acheron_MountingHoles)(type KiCad)(uri /home/tim/Documents/kicad/libs/AlexandriaLibrary-master/footprints/acheron_MountingHoles.pretty)(options "")(descr ""))
 )

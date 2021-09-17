@@ -85,7 +85,7 @@ U 1 1 6135D690
 P 1850 1400
 F 0 "D1" V 1896 1330 50  0000 R CNN
 F 1 "D_Small" V 1805 1330 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 1850 1400 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 1850 1400 50  0001 C CNN
 F 3 "~" V 1850 1400 50  0001 C CNN
 	1    1850 1400
 	0    -1   -1   0   
@@ -107,7 +107,7 @@ U 1 1 613858DE
 P 2650 1400
 F 0 "D6" V 2696 1330 50  0000 R CNN
 F 1 "D_Small" V 2605 1330 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 2650 1400 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 2650 1400 50  0001 C CNN
 F 3 "~" V 2650 1400 50  0001 C CNN
 	1    2650 1400
 	0    -1   -1   0   
@@ -129,7 +129,7 @@ U 1 1 61385E3A
 P 3450 1400
 F 0 "D10" V 3496 1330 50  0000 R CNN
 F 1 "D_Small" V 3405 1330 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 3450 1400 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 3450 1400 50  0001 C CNN
 F 3 "~" V 3450 1400 50  0001 C CNN
 	1    3450 1400
 	0    -1   -1   0   
@@ -151,7 +151,7 @@ U 1 1 6138611E
 P 4250 1400
 F 0 "D15" V 4296 1330 50  0000 R CNN
 F 1 "D_Small" V 4205 1330 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 4250 1400 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 4250 1400 50  0001 C CNN
 F 3 "~" V 4250 1400 50  0001 C CNN
 	1    4250 1400
 	0    -1   -1   0   
@@ -173,7 +173,7 @@ U 1 1 61386720
 P 4950 1400
 F 0 "D20" V 4996 1330 50  0000 R CNN
 F 1 "D_Small" V 4905 1330 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 4950 1400 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 4950 1400 50  0001 C CNN
 F 3 "~" V 4950 1400 50  0001 C CNN
 	1    4950 1400
 	0    -1   -1   0   
@@ -195,7 +195,7 @@ U 1 1 61387126
 P 5700 1400
 F 0 "D25" V 5746 1330 50  0000 R CNN
 F 1 "D_Small" V 5655 1330 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 5700 1400 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 5700 1400 50  0001 C CNN
 F 3 "~" V 5700 1400 50  0001 C CNN
 	1    5700 1400
 	0    -1   -1   0   
@@ -217,7 +217,7 @@ U 1 1 6138AEA6
 P 1850 2200
 F 0 "D2" V 1896 2130 50  0000 R CNN
 F 1 "D_Small" V 1805 2130 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 1850 2200 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 1850 2200 50  0001 C CNN
 F 3 "~" V 1850 2200 50  0001 C CNN
 	1    1850 2200
 	0    -1   -1   0   
@@ -239,7 +239,7 @@ U 1 1 6138AEB2
 P 2650 2200
 F 0 "D7" V 2696 2130 50  0000 R CNN
 F 1 "D_Small" V 2605 2130 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 2650 2200 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 2650 2200 50  0001 C CNN
 F 3 "~" V 2650 2200 50  0001 C CNN
 	1    2650 2200
 	0    -1   -1   0   
@@ -261,7 +261,7 @@ U 1 1 6138AEBE
 P 3450 2200
 F 0 "D11" V 3496 2130 50  0000 R CNN
 F 1 "D_Small" V 3405 2130 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 3450 2200 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 3450 2200 50  0001 C CNN
 F 3 "~" V 3450 2200 50  0001 C CNN
 	1    3450 2200
 	0    -1   -1   0   
@@ -283,7 +283,7 @@ U 1 1 6138AECA
 P 4250 2200
 F 0 "D16" V 4296 2130 50  0000 R CNN
 F 1 "D_Small" V 4205 2130 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 4250 2200 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 4250 2200 50  0001 C CNN
 F 3 "~" V 4250 2200 50  0001 C CNN
 	1    4250 2200
 	0    -1   -1   0   
@@ -305,7 +305,7 @@ U 1 1 6138AED6
 P 4950 2200
 F 0 "D21" V 4996 2130 50  0000 R CNN
 F 1 "D_Small" V 4905 2130 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 4950 2200 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 4950 2200 50  0001 C CNN
 F 3 "~" V 4950 2200 50  0001 C CNN
 	1    4950 2200
 	0    -1   -1   0   
@@ -327,7 +327,7 @@ U 1 1 6138AEE2
 P 5700 2200
 F 0 "D26" V 5746 2130 50  0000 R CNN
 F 1 "D_Small" V 5655 2130 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 5700 2200 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 5700 2200 50  0001 C CNN
 F 3 "~" V 5700 2200 50  0001 C CNN
 	1    5700 2200
 	0    -1   -1   0   
@@ -349,7 +349,7 @@ U 1 1 6138CFDE
 P 1850 3000
 F 0 "D3" V 1896 2930 50  0000 R CNN
 F 1 "D_Small" V 1805 2930 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 1850 3000 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 1850 3000 50  0001 C CNN
 F 3 "~" V 1850 3000 50  0001 C CNN
 	1    1850 3000
 	0    -1   -1   0   
@@ -371,7 +371,7 @@ U 1 1 6138CFEA
 P 2650 3000
 F 0 "D8" V 2696 2930 50  0000 R CNN
 F 1 "D_Small" V 2605 2930 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 2650 3000 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 2650 3000 50  0001 C CNN
 F 3 "~" V 2650 3000 50  0001 C CNN
 	1    2650 3000
 	0    -1   -1   0   
@@ -393,7 +393,7 @@ U 1 1 6138CFF6
 P 3450 3000
 F 0 "D12" V 3496 2930 50  0000 R CNN
 F 1 "D_Small" V 3405 2930 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 3450 3000 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 3450 3000 50  0001 C CNN
 F 3 "~" V 3450 3000 50  0001 C CNN
 	1    3450 3000
 	0    -1   -1   0   
@@ -415,7 +415,7 @@ U 1 1 6138D002
 P 4250 3000
 F 0 "D17" V 4296 2930 50  0000 R CNN
 F 1 "D_Small" V 4205 2930 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 4250 3000 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 4250 3000 50  0001 C CNN
 F 3 "~" V 4250 3000 50  0001 C CNN
 	1    4250 3000
 	0    -1   -1   0   
@@ -437,7 +437,7 @@ U 1 1 6138D00E
 P 4950 3000
 F 0 "D22" V 4996 2930 50  0000 R CNN
 F 1 "D_Small" V 4905 2930 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 4950 3000 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 4950 3000 50  0001 C CNN
 F 3 "~" V 4950 3000 50  0001 C CNN
 	1    4950 3000
 	0    -1   -1   0   
@@ -459,7 +459,7 @@ U 1 1 6138D01A
 P 5700 3000
 F 0 "D27" V 5746 2930 50  0000 R CNN
 F 1 "D_Small" V 5655 2930 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 5700 3000 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 5700 3000 50  0001 C CNN
 F 3 "~" V 5700 3000 50  0001 C CNN
 	1    5700 3000
 	0    -1   -1   0   
@@ -481,7 +481,7 @@ U 1 1 6139FE6B
 P 1850 3850
 F 0 "D4" V 1896 3780 50  0000 R CNN
 F 1 "D_Small" V 1805 3780 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 1850 3850 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 1850 3850 50  0001 C CNN
 F 3 "~" V 1850 3850 50  0001 C CNN
 	1    1850 3850
 	0    -1   -1   0   
@@ -503,7 +503,7 @@ U 1 1 6139FE77
 P 2650 3850
 F 0 "D9" V 2696 3780 50  0000 R CNN
 F 1 "D_Small" V 2605 3780 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 2650 3850 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 2650 3850 50  0001 C CNN
 F 3 "~" V 2650 3850 50  0001 C CNN
 	1    2650 3850
 	0    -1   -1   0   
@@ -525,7 +525,7 @@ U 1 1 6139FE83
 P 3450 3850
 F 0 "D13" V 3496 3780 50  0000 R CNN
 F 1 "D_Small" V 3405 3780 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 3450 3850 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 3450 3850 50  0001 C CNN
 F 3 "~" V 3450 3850 50  0001 C CNN
 	1    3450 3850
 	0    -1   -1   0   
@@ -547,7 +547,7 @@ U 1 1 6139FE8F
 P 4250 3850
 F 0 "D18" V 4296 3780 50  0000 R CNN
 F 1 "D_Small" V 4205 3780 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 4250 3850 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 4250 3850 50  0001 C CNN
 F 3 "~" V 4250 3850 50  0001 C CNN
 	1    4250 3850
 	0    -1   -1   0   
@@ -569,7 +569,7 @@ U 1 1 6139FE9B
 P 4950 3850
 F 0 "D23" V 4996 3780 50  0000 R CNN
 F 1 "D_Small" V 4905 3780 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 4950 3850 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 4950 3850 50  0001 C CNN
 F 3 "~" V 4950 3850 50  0001 C CNN
 	1    4950 3850
 	0    -1   -1   0   
@@ -591,7 +591,7 @@ U 1 1 6139FEA7
 P 5700 3850
 F 0 "D28" V 5746 3780 50  0000 R CNN
 F 1 "D_Small" V 5655 3780 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 5700 3850 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 5700 3850 50  0001 C CNN
 F 3 "~" V 5700 3850 50  0001 C CNN
 	1    5700 3850
 	0    -1   -1   0   
@@ -602,7 +602,7 @@ U 1 1 613ACBEB
 P 1850 4750
 F 0 "D5" V 1896 4680 50  0000 R CNN
 F 1 "D_Small" V 1805 4680 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 1850 4750 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 1850 4750 50  0001 C CNN
 F 3 "~" V 1850 4750 50  0001 C CNN
 	1    1850 4750
 	0    -1   -1   0   
@@ -613,7 +613,7 @@ U 1 1 613AD86D
 P 3450 4750
 F 0 "D14" V 3496 4680 50  0000 R CNN
 F 1 "D_Small" V 3405 4680 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 3450 4750 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 3450 4750 50  0001 C CNN
 F 3 "~" V 3450 4750 50  0001 C CNN
 	1    3450 4750
 	0    -1   -1   0   
@@ -624,7 +624,7 @@ U 1 1 613ADF5C
 P 4250 4750
 F 0 "D19" V 4296 4680 50  0000 R CNN
 F 1 "D_Small" V 4205 4680 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 4250 4750 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 4250 4750 50  0001 C CNN
 F 3 "~" V 4250 4750 50  0001 C CNN
 	1    4250 4750
 	0    -1   -1   0   
@@ -635,7 +635,7 @@ U 1 1 613AE75B
 P 4950 4750
 F 0 "D24" V 4996 4680 50  0000 R CNN
 F 1 "D_Small" V 4905 4680 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 4950 4750 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 4950 4750 50  0001 C CNN
 F 3 "~" V 4950 4750 50  0001 C CNN
 	1    4950 4750
 	0    -1   -1   0   
@@ -646,7 +646,7 @@ U 1 1 613AEDDB
 P 5700 4750
 F 0 "D29" V 5746 4680 50  0000 R CNN
 F 1 "D_Small" V 5655 4680 50  0000 R CNN
-F 2 "used_footprints:diode_TH_SMD" V 5700 4750 50  0001 C CNN
+F 2 "acheron_Components:D_THT_7.62mm" V 5700 4750 50  0001 C CNN
 F 3 "~" V 5700 4750 50  0001 C CNN
 	1    5700 4750
 	0    -1   -1   0   
@@ -842,19 +842,19 @@ U 1 1 61253003
 P 8450 1550
 F 0 "U1" H 8450 2387 60  0000 C CNN
 F 1 "ProMicro" H 8450 2281 60  0000 C CNN
-F 2 "Keebio-Parts:ArduinoProMicro" V 9500 -950 60  0001 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro-ZigZag" V 9500 -950 60  0001 C CNN
 F 3 "" V 9500 -950 60  0001 C CNN
 	1    8450 1550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9150 1900
+NoConn ~ 9150 1800
 NoConn ~ 9150 1000
-NoConn ~ 9150 2100
-NoConn ~ 9150 2000
-NoConn ~ 7750 1700
+NoConn ~ 9150 1400
+NoConn ~ 9150 1700
+NoConn ~ 9150 1500
 NoConn ~ 7750 1000
 NoConn ~ 7750 1100
-NoConn ~ 9150 1400
+NoConn ~ 9150 1600
 Connection ~ 7650 1250
 Wire Wire Line
 	7650 1300 7650 1250
@@ -899,25 +899,25 @@ F 3 "" H 9150 1100 50  0001 C CNN
 $EndComp
 Text GLabel 9150 1200 2    50   Input ~ 0
 RST
-Text GLabel 7750 1500 0    50   Input ~ 0
+Text GLabel 9150 2100 2    50   Input ~ 0
 col5
-Text GLabel 7750 1600 0    50   Input ~ 0
+Text GLabel 9150 2000 2    50   Input ~ 0
 col4
-Text GLabel 9150 1800 2    50   Input ~ 0
+Text GLabel 9150 1900 2    50   Input ~ 0
 col3
-Text GLabel 9150 1700 2    50   Input ~ 0
-col2
-Text GLabel 9150 1600 2    50   Input ~ 0
-col1
-Text GLabel 9150 1500 2    50   Input ~ 0
-col0
-Text GLabel 7750 2100 0    50   Input ~ 0
-row4
-Text GLabel 7750 2000 0    50   Input ~ 0
-row3
 Text GLabel 7750 1900 0    50   Input ~ 0
-row2
+col2
+Text GLabel 7750 2000 0    50   Input ~ 0
+col1
+Text GLabel 7750 2100 0    50   Input ~ 0
+col0
 Text GLabel 7750 1800 0    50   Input ~ 0
+row4
+Text GLabel 7750 1700 0    50   Input ~ 0
+row3
+Text GLabel 7750 1600 0    50   Input ~ 0
+row2
+Text GLabel 7750 1500 0    50   Input ~ 0
 row1
 Text GLabel 7750 1400 0    50   Input ~ 0
 row0
