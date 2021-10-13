@@ -7,7 +7,7 @@ After getting into custom keyboards I was looking to get a gaming keypad to free
 
 In Rev. 1 the Knuckle Pad features a 4x6+5 keys in a ortholinear layout, offering 3 1.25u pinky keys, 4 radially positioned thumb keys and a uniquely positioned key to press with the head of your metacarpal bone (what I call "inner knuckle"). However, after actually using the first prototype the placement of said "knuckle key" turned out to be way to aggresive (too low, felt like it was in the way).
 
-[//]: add picture of layout here
+[//]: # add picture of layout here
 
 
 # Rev. 2
@@ -18,7 +18,7 @@ The 1.25u keys in the 1st col have also been replaced with 1u keys for better ke
 
 Rev. 2 also features VIAL support so you can map the keys to your personal preferenc very easily.
 
-[//]: add picture of layout here
+[//]: # add picture of layout here
 
 
 # Pictures
