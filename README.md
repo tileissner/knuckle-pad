@@ -16,7 +16,7 @@ Rev. 2 features a top-mounted MCU to reduce the overall build height, but sacrif
 
 The 1.25u keys in the 1st col have also been replaced with 1u keys for better keycap profile compatibility. They have been moved to the edge of the PCB to still have these keys separated from the rest and emulate the feeling of a "normal" keyboard.
 
-Rev. 2 also features VIAL support so you can map the keys to your personal preferenc very easily.
+Rev. 2 also features VIAL support so you can map the keys to your personal preference very easily.
 
 [//]: # (add picture of layout here)
 
@@ -46,4 +46,4 @@ A: At some point in time I (unconsciously) developed the habit of using my knuck
 - <del>Change to black pill microcontroller</del> (No purpose in doing this anymore as pro micros with usb-c are sufficient for this kb)
 - Hot-Swap
 - Might design a stacked acrylic case if I'm feeling spicy (not anytime soon though)
-- Since I designed this KB after finding out about the free montly prototype that allpcb offered and sinc I wanted to use that service I was constrained to a maximum PCB area of 15000mm^2. Consequently, I could not have BOTH a top-mounted MCU AND all rows with 6 columns. Allpcb apparently discountinued that service (atleast if you haven't bought any PCBs in the last 6 months from them). This means that if I'm doing a Rev. 3 I will not be constrained anymore by the max size for free prototypes and can have ALL the keys + a top-mounted MCU.
+- Since I designed this KB after finding out about the free montly prototype that allpcb offered and since I wanted to use that service I was constrained to a maximum PCB area of 15000mm^2. Consequently, I could not have BOTH a top-mounted MCU AND all rows with 6 columns. Allpcb apparently discountinued that service (atleast if you haven't bought any PCBs in the last 6 months from them), so this means that if I'm doing a Rev. 3 I will not be constrained anymore by the max size for free prototypes and can have ALL the keys + a top-mounted MCU.
